@@ -1,0 +1,17 @@
+{
+  "name": "broker-example-snyk-client",
+  "private": true,
+  "description": "An example broker-client, configured for use with Snyk",
+  "scripts": {
+    "postinstall": "broker init snyk",
+    "start": "broker client"
+  },
+  "author": "Gareth Visagie <gareth@snyk.io>",
+  "license": "ISC",
+  "dependencies": {
+    "snyk-broker": "^3.6.0"
+  },
+  "engines": {
+    "node": "6"
+  }
+}
