@@ -9,7 +9,7 @@
   "author": "Gareth Visagie <gareth@snyk.io>",
   "license": "ISC",
   "dependencies": {
-    "snyk-broker": "^3.6.0"
+    "snyk-broker": "^3.7.0"
   },
   "engines": {
     "node": "6"
