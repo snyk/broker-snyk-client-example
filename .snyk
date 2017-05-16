@@ -1,0 +1,87 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.0
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  'npm:ms:20170412':
+    - snyk-broker > debug > ms:
+        reason: None given
+        expires: '2017-06-15T17:51:17.167Z'
+    - snyk-broker > snyk > debug > ms:
+        reason: None given
+        expires: '2017-06-15T17:51:17.167Z'
+    - snyk-broker > snyk-config > debug > ms:
+        reason: None given
+        expires: '2017-06-15T17:51:17.224Z'
+    - snyk-broker > undefsafe > debug > ms:
+        reason: None given
+        expires: '2017-06-15T17:51:17.224Z'
+    - snyk-broker > clite > debug > ms:
+        reason: None given
+        expires: '2017-06-15T17:51:17.225Z'
+    - snyk-broker > snyk > snyk-resolve-deps > clite > debug > ms:
+        reason: None given
+        expires: '2017-06-15T17:51:17.225Z'
+    - snyk-broker > snyk > snyk-config > debug > ms:
+        reason: None given
+        expires: '2017-06-15T17:51:17.227Z'
+    - snyk-broker > snyk > snyk-module > debug > ms:
+        reason: None given
+        expires: '2017-06-15T17:51:17.227Z'
+    - snyk-broker > snyk > snyk-policy > debug > ms:
+        reason: None given
+        expires: '2017-06-15T17:51:17.283Z'
+    - snyk-broker > snyk > snyk-resolve > debug > ms:
+        reason: None given
+        expires: '2017-06-15T17:51:17.284Z'
+    - snyk-broker > snyk > snyk-resolve-deps > debug > ms:
+        reason: None given
+        expires: '2017-06-15T17:51:17.284Z'
+    - snyk-broker > snyk > snyk-try-require > debug > ms:
+        reason: None given
+        expires: '2017-06-15T17:51:17.285Z'
+    - snyk-broker > snyk > snyk-policy > snyk-module > debug > ms:
+        reason: None given
+        expires: '2017-06-15T17:51:17.285Z'
+    - snyk-broker > snyk > snyk-policy > snyk-resolve > debug > ms:
+        reason: None given
+        expires: '2017-06-15T17:51:17.285Z'
+    - snyk-broker > snyk > snyk-resolve-deps > snyk-resolve > debug > ms:
+        reason: None given
+        expires: '2017-06-15T17:51:17.287Z'
+    - snyk-broker > snyk > snyk-policy > snyk-try-require > debug > ms:
+        reason: None given
+        expires: '2017-06-15T17:51:17.287Z'
+    - snyk-broker > snyk > snyk-resolve-deps > snyk-try-require > debug > ms:
+        reason: None given
+        expires: '2017-06-15T17:51:17.344Z'
+    - snyk-broker > snyk > snyk-resolve-deps > snyk-module > debug > ms:
+        reason: None given
+        expires: '2017-06-15T17:51:17.344Z'
+    - snyk-broker > express > finalhandler > debug > ms:
+        reason: None given
+        expires: '2017-06-15T17:51:17.344Z'
+    - snyk-broker > body-parser > debug > ms:
+        reason: None given
+        expires: '2017-06-15T17:51:17.344Z'
+    - snyk-broker > express > debug > ms:
+        reason: None given
+        expires: '2017-06-15T17:51:17.345Z'
+    - snyk-broker > express > send > debug > ms:
+        reason: None given
+        expires: '2017-06-15T17:51:17.345Z'
+    - snyk-broker > express > serve-static > send > debug > ms:
+        reason: None given
+        expires: '2017-06-15T17:51:17.345Z'
+    - snyk-broker > engine.io > debug > ms:
+        reason: None given
+        expires: '2017-06-15T17:51:17.346Z'
+    - snyk-broker > engine.io-client > debug > ms:
+        reason: None given
+        expires: '2017-06-15T17:51:17.346Z'
+    - snyk-broker > express > send > ms:
+        reason: None given
+        expires: '2017-06-15T17:51:17.346Z'
+    - snyk-broker > express > serve-static > send > ms:
+        reason: None given
+        expires: '2017-06-15T17:51:17.346Z'
+patch: {}
