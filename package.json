@@ -3,7 +3,7 @@
   "private": true,
   "description": "An example broker-client, configured for use with Snyk",
   "scripts": {
-    "postinstall": "broker init snyk",
+    "postinstall": "broker init github",
     "start": "broker client",
     "snyk-protect": "snyk protect",
     "prepublish": "npm run snyk-protect"
