@@ -95,4 +95,11 @@ ignore:
     - snyk-broker > engine.io-client > parsejson:
         reason: None given
         expires: '2017-10-26T07:31:36.156Z'
+  'npm:mime:20170907':
+    - snyk-broker > express > send > mime:
+        reason: None given
+        expires: '2017-10-28T08:37:49.026Z'
+    - snyk-broker > express > serve-static > send > mime:
+        reason: None given
+        expires: '2017-10-28T08:37:49.026Z'
 patch: {}
