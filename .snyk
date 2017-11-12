@@ -23,8 +23,8 @@ ignore:
   'npm:ws:20171108':
     - snyk-broker > engine.io > ws:
         reason: None given
-        expires: '2017-12-12T07:22:03.265Z'
+        expires: '2018-12-12T07:22:03.265Z'
     - snyk-broker > engine.io-client > ws:
         reason: None given
-        expires: '2017-12-12T07:22:03.266Z'
+        expires: '2018-12-12T07:22:03.266Z'
 patch: {}
