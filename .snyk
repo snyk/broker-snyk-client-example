@@ -27,4 +27,8 @@ ignore:
     - snyk-broker > engine.io-client > ws:
         reason: None given
         expires: '2018-12-12T07:22:03.266Z'
+  'npm:moment:20170905':
+    - snyk-broker > bunyan > moment:
+        reason: None given
+        expires: '2017-12-29T16:09:25.783Z'
 patch: {}
